@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "clone": "^2.1.2",
+    "dotenv": "^16.3.1",
+    "express": "github:expressjs/express",
+    "git": "^0.1.5",
+    "mongodb": "^5.9.1",
+    "mongoose": "^5.11.10"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
