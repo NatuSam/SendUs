@@ -5,4 +5,4 @@ const FileSchema = new mongoose.Schema({
     owner: {type: mongoose.Schema.Types.ObjectId, ref: 'User' }
 })
 
-module.exports = mongoose.model('File', UserSchema)
+module.exports = mongoose.model('Files', UserSchema) 
